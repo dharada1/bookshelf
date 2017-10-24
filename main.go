@@ -16,7 +16,7 @@ func main() {
 
 	// 1. http://localhost:8080/ へアクセスすると「Hello world」と表示する。
 	router.GET("/", func(c *gin.Context) {
-		c.String(200, "Hello world")
+		c.String(200, "Hello")
 	})
 
 	// 2. http://localhost:8080/hoge へアクセスすると、「fuga」と表示する。
